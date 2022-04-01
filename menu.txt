@@ -9,6 +9,8 @@ switch (i)
     case 2:
         food = "salad";
         break;
-    
+    case 6:
+	food = "juice";
+	break;
 }
 Console.WriteLine("Random recommendation: " + food + ".");
